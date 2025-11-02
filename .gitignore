@@ -1,7 +1,7 @@
-# Compiled class file
+# Compiled class files
 *.class
 
-# Log file
+# Log files
 *.log
 
 # BlueJ files
@@ -19,6 +19,80 @@
 *.tar.gz
 *.rar
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+# Virtual machine crash logs
 hs_err_pid*
 replay_pid*
+
+#########################
+# Eclipse IDE specific  #
+#########################
+
+# Eclipse project files (recriáveis)
+.classpath
+.project
+.settings/
+
+# Eclipse working files
+.loadpath
+.recommenders/
+
+# Build directories
+bin/
+build/
+out/
+target/
+
+# Launch configurations (opcional)
+*.launch
+
+# Local Eclipse metadata (não versionar)
+.metadata/
+tmp/
+*.tmp
+*.bak
+*.swp
+
+# Eclipse annotation processing
+.apt_generated/
+.factorypath
+
+# Code style / formatter (se não for compartilhado no repositório)
+*.prefs
+
+#########################
+# OS / Editor files     #
+#########################
+
+# Windows / macOS / Linux
+Thumbs.db
+.DS_Store
+ehthumbs.db
+Icon?
+desktop.ini
+
+# VSCode or IntelliJ (caso misture IDEs)
+.vscode/
+.idea/
+
+#########################
+# Maven / Gradle builds #
+#########################
+
+# Maven target
+target/
+
+# Gradle cache
+.gradle/
+build/
+
+# Local Gradle wrapper binaries
+gradle-app.setting
+!gradle/wrapper/gradle-wrapper.jar
+
+#########################
+# Java Environment Files #
+#########################
+
+# Environment / configuration local
+*.env
+*.properties.local
